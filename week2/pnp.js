@@ -10,10 +10,12 @@ back.style.backgroundColor = "lightslategray";
 var para = document.createElement("p");
 para.textContent = "All of this was created with Javascript";
 para.style.fontSize = "2em";
+para.style.lineHeight = "2.5em";
 document.body.append(para);
 
 var newOl = document.createElement("ol");
 newOl.textContent = "My new ol";
+newOl.style.lineHeight = "2em";
 var firstLi = document.createElement("li");
 firstLi.textContent = "First LI";
 newOl.append(firstLi);
