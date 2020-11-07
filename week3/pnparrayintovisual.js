@@ -23,9 +23,6 @@ var arr = ["steve", "larry", "joe", "shirley", "steph", "nate", "rick", "emily"]
 var people = document.createElement("ul");
 //step 6
 for (var i=0; i < arr.length; i++){
-  /* var name = document.createElement("li");
-  name.textContent = arr[i];
-  document.people.append(name); */
   people.innerHTML += "<li>" + arr[i] + "</li>";
 }
 
