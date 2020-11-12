@@ -1,0 +1,39 @@
+#addition {
+  background-color: sienna;
+  border-radius: 13px;
+  text-align: center;
+  padding: 15px;
+}
+
+#subtraction {
+  background-color: saddlebrown;
+  border-radius: 13px;
+  text-align: center;
+  padding: 15px;
+}
+
+#multiplication {
+  background-color: brown;
+  border-radius: 13px;
+  text-align: center;
+  padding: 15px;
+}
+
+h3 {
+  color: slategray;
+  text-shadow: 6px 5px black;
+}
+
+h4 {
+  color: orange;
+  
+}
+input {
+  margin: 15px;
+  border-radius: 13px;
+}
+
+button {
+  border-radius: 13px;
+  
+}
