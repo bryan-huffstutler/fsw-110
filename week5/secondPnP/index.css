@@ -1,0 +1,58 @@
+# {
+  margin: 30px;
+}
+
+#gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+form {
+  grid-column: 2/3;
+  margin-top: 20px;
+  background-color: seagreen;
+  border-radius: 20px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#nameAndAge {
+  text-align: center;
+  padding: 20px;
+}
+
+#gender {
+  text-align: center;
+  padding: 20px;
+}
+
+#genderSelection > label{
+  font-weight: normal;
+  font-size: 15px;
+}
+
+#locSelect {
+  text-align: center;
+  padding: 20px;
+}
+
+#dietSel {
+  text-align: center;
+  padding: 20px;
+}
+
+#veganLabel {
+  font-weight: 100;
+}
+
+#subBut {
+  text-align: center;
+}
+
+#submit {
+  font-size: 20px;  
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Using Other Types of HTML Inputs</title>
+</head>
+<body>
+  <div id="gridContainer">
+  <form action="#">
+    <div id="nameAndAge">
+    <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter First Name" required><br>
+      <label for="lastName">Last Name:</label><br>
+        <input type="text" id = "lastName" name="lastName" placeholder="Enter Last Name" required><br>
+      <label for="age">Age:</label><br>
+        <input type="number" name="age" id = "age" placeholder="Enter Your Age" required><br>
+    </div>
+    <div id="gender">
+      <label for="gender" id="genderCSS">Gender</label>
+        <div id="genderSelection">
+          <input type="radio" id = "male" name="gender" value="male">
+          <label for="male">Male</label>
+        
+          <input type="radio" id = "female" name="gender" value="female">
+          <label for="female">Female</label>
+        </div>
+    </div>
+    <div id="locSelect">      
+      <label for="location">Choose a Location:</label><br>
+      <select id="select" name="location">
+        <option id="dallas" value="dallas">Dallas</option>
+        <option id="paris" value="paris">Paris</option>
+        <option id="chicago" value="chicago">Chicago</option>
+        <option id="moscow" value="moscow">Moscow</option>
+      </select><br>
+    </div>
+    <div id="dietSel">
+      <label id="dietLabel" for="diet">Dietary Restrictions:</label><br>
+        <input type="checkbox" id="vegan" name="diet" value="Vegan">
+      <label  for="vegan">Vegan</label><br>
+        <input type="checkbox" id="kosher" name="diet" value="Kosher">
+      <label for="kosher">Kosher</label><br>
+        <input type="checkbox" id="vegetarian" name="diet" value="Vegetarian">
+      <label for="vegetarian">Vegetarian</label><br>
+    </div>
+    <div id="subBut">
+      <button id="submit">Submit</button>
+    </div>
+  </form>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
