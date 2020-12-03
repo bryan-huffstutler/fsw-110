@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background-image: url("https://images.unsplash.com/photo-1568941235198-ddb29eb888ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+form {
+  display: grid;
+  grid-column: 2/3;
+  background-color: slategray;
+  border-radius: 13px;
+}
+
+#titleLabel {
+  text-align: center;
+  padding: 10px;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#titleDiv {
+  display: grid;
+  justify-content: center;
+  margin: 20px;
+}
+
+#descLabel {
+  text-align: center;
+  padding: 10px;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#descriptionDiv {
+  display: grid;
+  justify-content: center;
+  margin: 20px;
+}
+
+#to-dos {
+  display: grid;
+  grid-column: 2/3;
+  text-align: center;
+  padding-left: 0;
+  list-style-type: none;
+  background-color: darkgray;
+  border-radius: 13px;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.del {
+  font-weight: 800;
+  border-radius: 13px;
+}
+
+li {
+  list-style-position: inside;
+  margin: 10px;
+  background-color: lightgray;
+  border: 2px solid slategrey;
+  border-radius: 13px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: rgb(73, 80, 76);
+  font-weight: 800;
+}
+
+.title {
+  font-weight: 800;
+}
+
+.description { 
+  font-weight: 800;
+}
+
+#sub {
+  border-radius: 13px;
+}
